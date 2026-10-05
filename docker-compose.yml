@@ -2,6 +2,6 @@ version: '3.8'
 
 services:
   web:
-    image: nginx:1.31.5
+    image: nginx:1.25.0
     ports:
       - "8080:80"
